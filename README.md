@@ -2,7 +2,7 @@
 
 در سرور ایران
 ```sh
-wget  "https://raw.githubusercontent.com/radkesvat/FakeTlsTunnel/master/install.sh" -O install.sh && chmod +x install.sh && bash install.sh 
+wget "https://raw.githubusercontent.com/radkesvat/FakeTlsTunnel/master/install.sh" -O install.sh && chmod +x install.sh && bash install.sh 
 ```
 -------------------
 ```
@@ -11,7 +11,7 @@ nohup ./FTT --tunnel --lport:23-65535 --toip:IP-KHAREJ --toport:443  --password:
 -------------------------
 داخل سرور خارج
 ```sh
-wget  "https://raw.githubusercontent.com/radkesvat/FakeTlsTunnel/master/install.sh" -O install.sh && chmod +x install.sh && bash install.sh
+wget "https://raw.githubusercontent.com/radkesvat/FakeTlsTunnel/master/install.sh" -O install.sh && chmod +x install.sh && bash install.sh
 ```
 -------------------
 ```
