@@ -1,3 +1,20 @@
+توضیحات کاستوم شده
+
+در سرور ایران
+
+nohup ./FTT --tunnel --lport:23-65535 --toip:IP-KHAREJ --toport:443  --password:123ab --sni:speedtest.net
+
+
+داخل سرور خارج
+
+nohup ./FTT --server --lport:443 --toip:127.0.0.1 --toport:543  --password:123ab --sni:speedtest.net --multiport
+
+
+
+
+---------------------------------------
+
+
 
 با تشکر از دوستمون AminiYT بابت [آموزش ویدویی](https://youtu.be/Uyidjirkis0) ؛ سگارو، وحید عزیز و تمام دوستانی که برای دسترسی آزاد به اینترنت زحمت میکشند
 
