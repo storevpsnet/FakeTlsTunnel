@@ -18,8 +18,10 @@ wget "https://raw.githubusercontent.com/radkesvat/FakeTlsTunnel/master/install.s
 nohup ./FTT --server --lport:443 --toip:127.0.0.1 --toport:543  --password:123ab --sni:speedtest.net --multiport
 ```
 
-
-=========================
+============================================================
+تنظیم شده و ویرایش توسط kamranya
+Telegram Channel: @storevpsnet
+============================================================
 ------------------------------------------------------
 
 
