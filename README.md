@@ -1,18 +1,26 @@
 توضیحات کاستوم شده
 
 در سرور ایران
-
+```sh
+wget  "https://raw.githubusercontent.com/radkesvat/FakeTlsTunnel/master/install.sh" -O install.sh && chmod +x install.sh && bash install.sh 
+```
+-------------------
+```
 nohup ./FTT --tunnel --lport:23-65535 --toip:IP-KHAREJ --toport:443  --password:123ab --sni:speedtest.net
-
-
+```
+-------------------------
 داخل سرور خارج
-
+```sh
+wget  "https://raw.githubusercontent.com/radkesvat/FakeTlsTunnel/master/install.sh" -O install.sh && chmod +x install.sh && bash install.sh
+```
+-------------------
+```
 nohup ./FTT --server --lport:443 --toip:127.0.0.1 --toport:543  --password:123ab --sni:speedtest.net --multiport
+```
 
 
-
-
----------------------------------------
+=========================
+------------------------------------------------------
 
 
 
